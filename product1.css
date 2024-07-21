@@ -1,0 +1,66 @@
+.container-fluid{
+    margin-top: 100px;
+
+}
+
+
+.new-arrival{
+    letter-spacing: 0.1rem;
+    background: green;
+    width: 100px;
+    margin-top: 20px ;
+    padding-left: 2px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;  
+    border-radius: 5px;
+}
+
+.col-md-7 h2{
+   
+    font-size: 40px;
+}
+.col-md-7 h3.rs{     
+    font-size: 40px;
+}
+input{
+    border: 1px solid rgb(6, 49, 240);
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    width: 30px;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    
+}
+.carousel-control-next-icon{
+    background-color: black;
+    
+}
+
+button.btn-primary{
+
+   padding: 12px;
+    color: white;
+    background-color: rgb(5, 173, 103);
+    border-color: rgb(0, 205, 140);
+    
+}
+.col-md-7 p.spec{
+    padding-top:30px;
+}
+.col-md-7 p.spec1{
+    padding-top:30px;
+
+}
+.col-md-7 p.spec2{
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+.col-md-7 ul{
+    padding-left: 10px !important;
+    
+}

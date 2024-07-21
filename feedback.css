@@ -1,0 +1,50 @@
+body{
+    
+    margin-bottom: 10px;
+    background-color: black;
+    padding: 60px;  
+
+}
+form{
+    margin-left: 10px;
+    background-image: linear-gradient(red,black);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+   
+}
+.form-input{
+    border: none;
+    border-radius: 10px ;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.form-input:hover{
+    background-color: rgba(227, 212, 212, 0.634);
+}
+
+h1{
+    color: white;
+    font-size: 75px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+button{
+    font-size: 18px;
+    font-weight:bold;
+    border: none;
+    border-radius: 30px ;
+    width: 275px;
+    margin-bottom: 20px;
+    padding: 11px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+.dsa{
+    margin-left: 250px;
+}

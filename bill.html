@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bill.css">
+    <title>Bill</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="thank.html" onsubmit="return validation2()">
+            <div class="row">
+                <div class="col">
+
+                    <h3 class="title">payment</h3>
+
+                    <div class="inputBox">
+                        <span>cards accepted :</span>
+                        <img src="gamingimages/card_img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <label for="exampleInputName" class="form-label">Name on card</label>
+
+                        <input type="text" placeholder="Enter your name" id="exampleInputName" />
+                        <span id="error-name" style="color:blue; font-size: 15px; "></span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="exampleInputNumber" class="form-label">Credit Card Number</label>
+
+                        <input type="tel" placeholder="Enter credit number" id="exampleInputNumber" />
+                        <span id="error-number" style="color: blue; font-size: 15px"></span>
+
+                    </div>
+
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <label for="exampleInputNumber1" class="form-label">Exp year</label>
+
+                            <input type="tel" placeholder="2030" id="exampleInputNumber1" />
+                            <span id="error-number1" style="color: blue; font-size: 15px"></span>
+
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="exampleInputNumber2" class="form-label">CVV</label>
+
+                            <input type="tel" placeholder="123" id="exampleInputNumber2" />
+                            <span id="error-number2" style="color: blue; font-size: 15px"></span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <input type="submit" value="pay the amount" class="submit-btn"> -->
+            </div>
+            <button type="submit" class="submit-btn" >Pay Now</button>
+
+            </form></div> <script src="all.js"></script>
+</body>
+
+</html>

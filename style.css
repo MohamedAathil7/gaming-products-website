@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table{
+    border-collapse: collapse;
+  }
+  table tr th,table tr td{
+    border: 1px solid red;
+  }
+form{
+    width: 30%;
+    margin: 10px;
+    padding: 100px;
+    border: 2px solid coral;
+    border-radius: 20px;
+}
+form .form-input{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+}

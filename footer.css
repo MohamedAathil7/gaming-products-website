@@ -1,0 +1,45 @@
+
+footer{
+    background-color: black;
+}
+
+#product1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    color: white;
+    padding: 5px;
+    padding-right: 0 !important;
+}
+ul{
+    padding-left: 0 !important;
+}
+ul p{
+    color: white;
+}
+li a{
+    text-decoration: none;
+}
+.copyright{
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+
+footer:hover{
+    color: red;
+}
+
+#product1 ul li a:hover{
+    color: red;
+}
+i:hover{
+    color: red;
+}
+.red{
+    color: white;
+}
+.red:hover{
+    color: red;
+}

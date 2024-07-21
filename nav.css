@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;   
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: red;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:aqua !important; 
+}
+
+.navbar-nav .nav-link{
+    color: rgb(16, 12, 218);
+}
+#navbarSupportedContent a{
+    color: white;
+
+    border: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#navbarSupportedContent button{
+    background: aqua;
+    border-radius: 10px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(gamingimages/home.jpg);
+    background-size: cover ;
+    background-position: center;
+    flex-direction: column;
+
+}
+
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#home h3{
+    margin-top: 40px;
+    color: white;
+}
+#about{
+    background-color: rgb(0, 255, 255);
+    min-height: 50vh;
+    padding-left: 20px;
+}
+#about h1{
+    font-weight: 600;
+}
+#about img{
+    margin: 10px 30px;
+}
+#product{
+    background: #e5e5e5;
+
+}
+#product h1{    
+    font-weight: 600;
+}
+
+
+.card{
+
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.7),
+                inset 4px 4px 10px black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-item img{
+    padding-left: 30%;
+    max-width: fit-content;
+    object-fit: cover;
+}
+#product img{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
